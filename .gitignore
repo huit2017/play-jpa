@@ -1,0 +1,7 @@
+.classpath
+.g8/
+.history
+.project
+.settings/
+target/
+bin/
