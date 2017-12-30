@@ -1,0 +1,12 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+GET   /index    @controllers.member.HomeController.index()
+GET   /list     @controllers.member.HomeController.list()
+GET   /detail   @controllers.member.HomeController.detail()
+POST  /input    @controllers.member.HomeController.input()
+POST  /login    @controllers.member.HomeController.login()
+GET   /secure   @controllers.member.HomeController.secure()
+GET   /logout   @controllers.member.HomeController.logout()
+GET   /error    @controllers.member.HomeController.error()
